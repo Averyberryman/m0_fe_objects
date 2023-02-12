@@ -8,24 +8,45 @@
 var foods = {
   apples: 23, 
   grapes: 507, 
-  eggs: 48
+  eggs: 48,
+  bananas: 7000,
 }
 
 // Write code that prints all of the 'keys' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48,
+  bananas: 7000,
+}
+
+console.log(Object.keys(foods));
 
 // Write code that prints all of the 'values' of the foods variable 
 // you created above:
-// YOUR CODE HERE
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48,
+  bananas: 7000,
+}
+console.log(Object.values(foods));
 
 // Write code that prints the value of the second food of the foods variable 
 // you created above:
-// YOUR CODE HERE
+var foods = {
+  apples: 23, 
+  grapes: 507, 
+  eggs: 48,
+  bananas: 7000,
+}
+console.log(foods.grapes);
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
-// YOUR CODE HERE
+console.log(foods.bananas);
+
 
 
 // -------------------
@@ -41,14 +62,23 @@ var foods = {
 
 // Write code that logs your email object to the terminal.
 
+var email = {
+  sender: "Avery Berryman",
+  subject: "UFC 284",
+  recipients: ["Ben Cartlidge", "David Lethaby", "Mick Maney"],
+  message: "Islam Makhachev was entirely ineffective in his grappling exchanges. Volk stood up every time, and did more damage. Control time is meaningless if it is used defensively to avoid damage and there were no real submission attempts. You robbed Volk of the legendary double-champ status he deserved. And you know it!",
+  cc: "Dana White",
+
+}
+
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(email));
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(email));
 
 
 // -------------------
@@ -99,3 +129,22 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+email = [
+  {
+  sender: "Avery Berryman",
+  subject: "UFC 284",
+  recipients: ["Ben Cartlidge", "David Lethaby", "Mick Maney"],
+  message: "Islam Makhachev was entirely ineffective in his grappling exchanges. Volk stood up every time, and did more damage. Control time is meaningless if it is used defensively to avoid damage and there were no real submission attempts. You robbed Volk of the legendary double-champ status he deserved. And you know it!",
+  cc: "Dana White",
+  },
+  {
+    sender: "Avery Berryman's other email",
+    subject: "lost my bets",
+    recipients: ["Dave", "Eric", "Patrick", "Tyler", "Jacob"],
+    message: "Volk lost. Maybe I'm just making excuses bc I lost $20 on a good underdog payout.",
+    cc: "r/Sportsbetting",
+  }
+];
+
+console.log(email);

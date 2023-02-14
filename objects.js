@@ -45,6 +45,7 @@ console.log(foods.grapes);
 
 // Write code that adds a food to the foods object. 
 // Then, print the updated object:
+foods.bananas = 7000;
 console.log(foods.bananas);
 
 
